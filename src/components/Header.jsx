@@ -14,9 +14,7 @@ const Header = () => {
 
   return (
     <nav className="flex items-center justify-between p-6 bg-[#0D0C22] sticky top-0 z-50 border-b border-slate-800">
-      <div className="text-2xl font-bold text-white">
-        Andika Fadilla Siagian
-      </div>
+      <div className="text-2xl font-bold text-white">Portofolio</div>
 
       <div className="hidden md:flex items-center space-x-8">
         {menuItems.map((item) => (
