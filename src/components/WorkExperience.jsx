@@ -57,7 +57,7 @@ const Experience = () => {
 
           <div className="flex flex-col">
             <h3 className="text-3xl font-semibold text-white mb-4">
-              Documentasi Project
+              Documentation Project
             </h3>
             <p className="text-gray-400 mb-6">
               Beberapa cuplikan visual dari proyek dan dokumentasi saat kerja.
