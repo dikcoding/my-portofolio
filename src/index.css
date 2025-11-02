@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+  }
+}
+
+.dark-grid-background {
+  background-color: #0d0c22;
+  background-image: radial-gradient(
+    rgba(173, 161, 255, 0.08) 1px,
+    transparent 0
+  );
+  background-size: 20px 20px;
+}
