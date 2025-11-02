@@ -63,7 +63,6 @@ const Experience = () => {
               Beberapa cuplikan visual dari proyek dan dokumentasi saat kerja.
             </p>
 
-            {/* Grid untuk foto "petak" */}
             <div className="grid grid-cols-2 gap-4">
               {projectImages.map((src, index) => (
                 <div key={index} className="aspect-square">
@@ -78,7 +77,6 @@ const Experience = () => {
           </div>
         </div>
 
-        {/* --- Quote (Opsional, seperti di desain) --- */}
         <div className="mt-20 text-center">
           <blockquote className="text-xl italic text-gray-400 max-w-3xl mx-auto border-l-4 border-purple-500 pl-6">
             "Pengalaman adalah guru terbaik, terutama ketika dikombinasikan

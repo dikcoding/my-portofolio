@@ -1,5 +1,3 @@
-// src/components/Portofolio.jsx
-
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FiExternalLink, FiArrowRight } from "react-icons/fi";
@@ -77,7 +75,6 @@ const projects = [
   },
 ];
 
-// Data Sertifikat
 const certificates = [
   { title: "Fundamentals of Analytics on AWS - Part 1", imageUrl: "/1.png" },
   { title: "Fundamentals of Analytics on AWS - Part 2", imageUrl: "/2.png" },
@@ -141,7 +138,6 @@ const Portofolio = () => {
           </p>
         </div>
 
-        {/* --- KONTROL TAB --- */}
         <div className="flex justify-center mb-12">
           <div className="flex space-x-2 md:space-x-4 bg-[#1E293B]/50 border border-slate-700 rounded-lg p-2">
             <button

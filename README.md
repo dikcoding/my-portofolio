@@ -1,16 +1,73 @@
-# React + Vite
+# Portofolio Pribadi - Andika Fadilla Siagian
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Selamat datang di repositori portofolio pribadi saya. Website ini dibuat untuk menampilkan perjalanan profesional, pengalaman kerja, dan aktivitas saya selama di perkuliahan.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Fitur Utama
 
-## React Compiler
+- **Tentang Saya:** Penjelasan singkat mengenai fokus dan minat saya di bidang teknologi.
+- **Timeline Pengalaman:** Daftar pengalaman kerja profesional yang disajikan dalam format timeline yang rapi.
+- **Timeline Aktivitas Kampus:** Daftar organisasi dan kegiatan akademik selama perkuliahan.
+- **Galeri Proyek:** Galeri visual untuk menampilkan dokumentasi proyek dan kegiatan.
+- **Desain Responsif:** Didesain penuh agar dapat diakses dengan baik di perangkat desktop maupun mobile.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Teknologi yang Digunakan
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Proyek ini dibangun menggunakan teknologi web modern, di antaranya:
+
+- **[React.js](https://react.dev/)**: Library JavaScript untuk membangun antarmuka pengguna (UI).
+- **[Vite](https://vitejs.dev/)**: Build tool modern yang memberikan pengalaman pengembangan super cepat.
+- **[Tailwind CSS](https://tailwindcss.com/)**: Framework CSS utility-first untuk desain yang cepat dan kustom.
+
+---
+
+## 💻 Menjalankan Proyek Secara Lokal
+
+Jika Anda ingin menjalankan proyek ini di komputer Anda, ikuti langkah-langkah berikut:
+
+1.  **Clone repositori ini:**
+
+    ```bash
+    git clone https://github.com/dikcoding/my-portofolio.git
+    ```
+
+2.  **Masuk ke direktori proyek:**
+
+    ```bash
+    cd my-portofolio
+    ```
+
+3.  **Install semua dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+    _(atau `yarn install` jika Anda menggunakan Yarn)_
+
+4.  **Jalankan development server:**
+
+    ```bash
+    npm run dev
+    ```
+
+    _(atau `yarn dev`)_
+
+5.  Buka `http://localhost:5173` (atau port lain yang muncul di terminal) di browser Anda.
+
+---
+
+## 👤 Kontak
+
+Jangan ragu untuk terhubung dengan saya:
+
+- **LinkedIn:** [linkedin.com/in/dikkasg](https://www.linkedin.com/in/dikkasg/)
+- **GitHub:** [github.com/dikcoding](https://github.com/dikcoding/)
+- **Email:** `diikaasg@gmail.com`
+
+---
+
+© 2025 Andika Fadilla Siagian.
