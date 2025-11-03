@@ -24,6 +24,15 @@ import { MdDashboard } from "react-icons/md";
 
 const projects = [
   {
+    id: "dashboard-hr-summary",
+    title: "HR Summary",
+    description:
+      "Dashboard interaktif untuk memantau data karyawan secara real-time, mencakup statistik keaktifan, demografi, performa, departemen, lokasi, hingga hubungan usia dan gaji.",
+    imageUrl: "/dashboard-hr-sumarry.png",
+    liveDemoUrl:
+      "https://public.tableau.com/app/profile/andika.fadilla.siagian/viz/HRDashboard_17621332585400/HRSummary",
+  },
+  {
     id: "road-acident-anlytics",
     title: "Road Acident Analytics",
     description:

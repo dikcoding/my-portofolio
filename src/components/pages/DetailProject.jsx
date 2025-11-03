@@ -2,6 +2,25 @@ import React from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
 
 const allProjectsData = {
+  "dashboard-hr-summary": {
+    title: "HR Summary",
+    description:
+      "Dashboard interaktif untuk memantau data karyawan secara real-time, mencakup statistik keaktifan, demografi, performa, departemen, lokasi, hingga hubungan usia dan gaji.",
+    techCount: 3,
+    featureCount: 5,
+    technologies: ["Tableau", "drawi.io", "Figma"],
+    keyFeatures: [
+      "Overview jumlah karyawan aktif, karyawan baru, dan terminasi dalam satu tampilan.",
+      "Visualisasi departemen dengan jumlah karyawan dan status (hired vs terminated).",
+      "Analisis demografi berdasarkan gender, usia, pendidikan, dan lokasi kerja.",
+      "Korelasi antara pendidikan & performa karyawan (Excellent, Good, Satisfactory, Needs Improvement).",
+      "Insight pendapatan berdasarkan pendidikan dan gender, serta hubungan usia dengan rata-rata gaji.",
+      "Pemetaan lokasi kantor/karyawan serta dashboard dapat di-filter berdasarkan gender, status, lokasi, dan hire date.",
+    ],
+    liveDemoUrl:
+      "https://public.tableau.com/app/profile/andika.fadilla.siagian/viz/HRDashboard_17621332585400/HRSummary",
+    imageUrl: "/dashboard-hr-sumarry.png",
+  },
   "road-acident-anlytics": {
     title: "Road Acident Analytics",
     description:
