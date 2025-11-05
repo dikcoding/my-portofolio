@@ -85,6 +85,15 @@ const projects = [
 ];
 
 const certificates = [
+  {
+    title: "Introduction to Python",
+    imageUrl: "/10.jpg",
+  },
+  {
+    title: "Data Manipulation with Pandas",
+    imageUrl: "/9.jpg",
+  },
+
   { title: "Fundamentals of Analytics on AWS - Part 1", imageUrl: "/1.png" },
   { title: "Fundamentals of Analytics on AWS - Part 2", imageUrl: "/2.png" },
   { title: "Data Engineering on AWS - Foundations", imageUrl: "/3.png" },
@@ -107,14 +116,6 @@ const certificates = [
   {
     title: "The Complate dbt (Data Build Tool) Bootcamp: Zero to Hero",
     imageUrl: "/8.png",
-  },
-  {
-    title: "Data Manipulation with Pandas",
-    imageUrl: "/9.png",
-  },
-  {
-    title: "Introduction to Python",
-    imageUrl: "/10.png",
   },
 ];
 
