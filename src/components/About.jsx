@@ -17,7 +17,7 @@ const About = () => {
     },
     {
       icon: <FaCertificate size={20} className="text-slate-400" />,
-      number: 8,
+      number: 10,
       title: "CERTIFICATES",
       subtitle: "Professional skills validated",
     },

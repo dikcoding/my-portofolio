@@ -108,6 +108,14 @@ const certificates = [
     title: "The Complate dbt (Data Build Tool) Bootcamp: Zero to Hero",
     imageUrl: "/8.png",
   },
+  {
+    title: "Data Manipulation with Pandas",
+    imageUrl: "/9.png",
+  },
+  {
+    title: "Introduction to Python",
+    imageUrl: "/10.png",
+  },
 ];
 
 const techStack = [
