@@ -11,7 +11,7 @@ const About = () => {
   const stats = [
     {
       icon: <FaCode size={20} className="text-slate-400" />,
-      number: 7,
+      number: 8,
       title: "TOTAL PROJECTS",
       subtitle: "Innovative web solutions crafted",
     },

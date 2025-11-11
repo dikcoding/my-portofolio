@@ -24,6 +24,14 @@ import { MdDashboard } from "react-icons/md";
 
 const projects = [
   {
+    id: "bbpvp_analyst",
+    title: "Analisis Efektivitas Program Pelatihan Vokasi BBPVP Medan",
+    description:
+      "Analisis efektivitas program pelatihan vokasi di BBPVP Medan menggunakan Python. Proyek ini mencakup pembuatan data sintetis, pembersihan data, analisis eksploratif, pemodelan statistik, serta visualisasi interaktif untuk mengukur dampak pelatihan terhadap produktivitas peserta.",
+    imageUrl: "/bbpvp_analyst.png",
+    liveDemoUrl: "https://github.com/dikcoding/bbpvp_analyst",
+  },
+  {
     id: "dashboard-hr-summary",
     title: "HR Summary",
     description:

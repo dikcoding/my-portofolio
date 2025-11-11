@@ -2,6 +2,30 @@ import React from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
 
 const allProjectsData = {
+  bbpvp_analyst: {
+    title: "Analisis Efektivitas Program Pelatihan Vokasi BBPVP Medan",
+    description:
+      "Analisis efektivitas program pelatihan vokasi di BBPVP Medan menggunakan Python. Proyek ini mencakup pembuatan data sintetis, pembersihan data, analisis eksploratif, pemodelan statistik, serta visualisasi interaktif untuk mengukur dampak pelatihan terhadap produktivitas peserta.",
+    techCount: 6,
+    featureCount: 5,
+    technologies: [
+      "Python",
+      "Numpy",
+      "Pandas",
+      "Matplotlib",
+      "Seaborn",
+      "Scikit-learn",
+      "Statsmodels",
+    ],
+    keyFeatures: [
+      "Analisis efektivitas program pelatihan berdasarkan data peserta dan hasil produktivitas.",
+      "Perhitungan tingkat kehadiran, kelulusan, serta produktivitas rata-rata peserta pelatihan.",
+      "Visualisasi tren kehadiran dan kelulusan peserta dari waktu ke waktu.",
+      "Analisis hubungan antara durasi pelatihan, nilai ujian, dan produktivitas menggunakan korelasi serta regresi linear",
+    ],
+    githubUrl: "https://github.com/dikcoding/bbpvp_analyst",
+    imageUrl: "/bbpvp_analyst.png",
+  },
   "dashboard-hr-summary": {
     title: "HR Summary",
     description:
