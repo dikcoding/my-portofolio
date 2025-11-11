@@ -41,6 +41,15 @@ const projects = [
       "https://public.tableau.com/app/profile/andika.fadilla.siagian/viz/HRDashboard_17621332585400/HRSummary",
   },
   {
+    id: "sales_dashboard",
+    title: "Sales Dashboard",
+    description:
+      "Dashboard interaktif untuk memantau metrik penjualan utama (Sales, Profit, Quantity) secara real-time, menampilkan perbandingan 'Year-over-Year' (vs. PY) dan tren bulanan.",
+    imageUrl: "/sales_dashboard.png",
+    liveDemoUrl:
+      "https://public.tableau.com/app/profile/andika.fadilla.siagian/viz/SalesCustomerDashboards_17629040855770/SalesDashboard?publish=yes",
+  },
+  {
     id: "road-acident-anlytics",
     title: "Road Acident Analytics",
     description:

@@ -45,6 +45,24 @@ const allProjectsData = {
       "https://public.tableau.com/app/profile/andika.fadilla.siagian/viz/HRDashboard_17621332585400/HRSummary",
     imageUrl: "/dashboard-hr-sumarry.png",
   },
+  sales_dashboard: {
+    title: "Sales Dashboard",
+    description:
+      "Dashboard interaktif untuk memantau metrik penjualan utama (Sales, Profit, Quantity) secara real-time, menampilkan perbandingan 'Year-over-Year' (vs. PY) dan tren bulanan.",
+    techCount: 1,
+    featureCount: 5,
+    technologies: ["Tableau", "drawi.io", "Figma"],
+    keyFeatures: [
+      "KPI utama (Total Sales, Total Profit, Total Quantity) dengan perbandingan 'vs. Previous Year' (PY).",
+      "Grafik tren bulanan untuk KPI yang membandingkan 2023 vs 2022, serta menyoroti bulan tertinggi & terendah.",
+      "Analisis 'Sales & Profit' berdasarkan Sub-kategori produk dalam bentuk bar chart.",
+      "Visualisasi 'Sales & Profit Trends over Time' yang membandingkan performa dengan nilai rata-rata (Avg).",
+      "Filter interaktif (terlihat dari ikon di kanan atas) untuk menganalisis data lebih dalam.",
+    ],
+    liveDemoUrl:
+      "https://public.tableau.com/app/profile/andika.fadilla.siagian/viz/SalesCustomerDashboards_17629040855770/SalesDashboard?publish=yes",
+    imageUrl: "/sales_dashboard.png",
+  },
   "road-acident-anlytics": {
     title: "Road Acident Analytics",
     description:
