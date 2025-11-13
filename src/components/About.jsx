@@ -11,7 +11,7 @@ const About = () => {
   const stats = [
     {
       icon: <FaCode size={20} className="text-slate-400" />,
-      number: 9,
+      number: 10,
       title: "TOTAL PROJECTS",
       subtitle: "Innovative web solutions crafted",
     },
@@ -90,7 +90,7 @@ const About = () => {
             <div className="relative">
               <div className="absolute -inset-1.5 bg-gradient-to-br from-purple-600 to-blue-500 rounded-full blur-xl opacity-75"></div>
               <img
-                src="\dika_foto.jpg"
+                src="\foto_dika.jpg"
                 alt="Andika Fadilla Siagian"
                 className="relative w-64 h-64 md:w-72 md:h-72 object-cover rounded-full"
               />

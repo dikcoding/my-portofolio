@@ -2,6 +2,30 @@ import React from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
 
 const allProjectsData = {
+  car_sales: {
+    title: "Car Sales Analysis",
+    description:
+      "Proyek ini bertujuan untuk menganalisis data historis penjualan mobil dari berbagai wilayah dan produsen.Analisis dilakukan untuk memahami tren pasar otomotif, mengidentifikasi model terlaris, menganalisis pola musiman, serta mendukung peramalan penjualan masa depan. Hasil analisis diharapkan menjadi dasar pengambilan keputusan strategis dalam pemasaran, manajemen stok, dan investasi.",
+    techCount: 6,
+    featureCount: 5,
+    technologies: [
+      "Python",
+      "Numpy",
+      "Pandas",
+      "Matplotlib",
+      "Seaborn",
+      "Tableau",
+    ],
+    keyFeatures: [
+      "Analisis tren penjualan berdasarkan wilayah, merek, dan model kendaraan.",
+      "Identifikasi pola musiman dan perbandingan performa penjualan antar produsen atau dealer.",
+      "Analisis prediktif sederhana menggunakan data historis untuk mendukung perencanaan strategi bisnis.",
+      "Feature engineering seperti ekstraksi sales_month & sales_year serta segmentasi pendapatan.",
+      "Visualisasi data berupa line chart, bar chart, donut chart, dan scatter plot untuk kebutuhan reporting.",
+    ],
+    githubUrl: "https://github.com/dikcoding/car_sales_anlysis",
+    imageUrl: "/bar_car_sales.png",
+  },
   bbpvp_analyst: {
     title: "Analisis Efektivitas Program Pelatihan Vokasi BBPVP Medan",
     description:

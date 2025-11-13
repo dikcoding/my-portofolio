@@ -24,6 +24,14 @@ import { MdDashboard } from "react-icons/md";
 
 const projects = [
   {
+    id: "car_sales",
+    title: "Car Sales Analysis",
+    description:
+      "Proyek ini bertujuan untuk menganalisis data historis penjualan mobil dari berbagai wilayah dan produsen.Analisis dilakukan untuk memahami tren pasar otomotif, mengidentifikasi model terlaris, menganalisis pola musiman, serta mendukung peramalan penjualan masa depan. Hasil analisis diharapkan menjadi dasar pengambilan keputusan strategis dalam pemasaran, manajemen stok, dan investasi.",
+    imageUrl: "/bar_car_sales.png",
+    liveDemoUrl: "https://github.com/dikcoding/car_sales_anlysis",
+  },
+  {
     id: "bbpvp_analyst",
     title: "Analisis Efektivitas Program Pelatihan Vokasi BBPVP Medan",
     description:
