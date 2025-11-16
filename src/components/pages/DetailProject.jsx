@@ -23,8 +23,10 @@ const allProjectsData = {
       "Feature engineering seperti ekstraksi sales_month & sales_year serta segmentasi pendapatan.",
       "Visualisasi data berupa line chart, bar chart, donut chart, dan scatter plot untuk kebutuhan reporting.",
     ],
+    liveDemoUrl:
+      "https://public.tableau.com/app/profile/andika.fadilla.siagian/viz/car_sales_dashboard_17632894277570/Dashboard",
     githubUrl: "https://github.com/dikcoding/car_sales_anlysis",
-    imageUrl: "/bar_car_sales.png",
+    imageUrl: "/dashboard_car_sales.png",
   },
   bbpvp_analyst: {
     title: "Analisis Efektivitas Program Pelatihan Vokasi BBPVP Medan",
