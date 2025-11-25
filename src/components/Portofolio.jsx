@@ -24,6 +24,14 @@ import { MdDashboard } from "react-icons/md";
 
 const projects = [
   {
+    id: "etl_apple_market",
+    title: "ETL Apple Market",
+    description:
+      "ETL pipeline for processing Apple stock prices using Airflow, Spark, MinIO, and Postgres. The pipeline fetches data from an API, stores it as JSON, transforms it with Spark, loads it into a data warehouse, and visualizes it with Metabase. Includes sensors, PythonOperator, DockerOperator, and Slack notifier.",
+    imageUrl: "/stock_dashboard.jpg",
+    liveDemoUrl: "https://github.com/dikcoding/etl_apple_market",
+  },
+  {
     id: "car_sales",
     title: "Car Sales Analysis",
     description:

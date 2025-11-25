@@ -2,6 +2,33 @@ import React from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
 
 const allProjectsData = {
+  etl_apple_market: {
+    title: "ETL Apple Market",
+    description:
+      "ETL pipeline for processing Apple stock prices using Airflow, Spark, MinIO, and Postgres. The pipeline fetches data from an API, stores it as JSON, transforms it with Spark, loads it into a data warehouse, and visualizes it with Metabase. Includes sensors, PythonOperator, DockerOperator, and Slack notifier.",
+    techCount: 8,
+    featureCount: 6,
+    technologies: [
+      "Python",
+      "Apache Airflow",
+      "Apache Spark",
+      "Docker",
+      "MinIO (S3 Storage)",
+      "PostgreSQL",
+      "Metabase",
+      "Slack Webhook",
+    ],
+    keyFeatures: [
+      "Automated ETL pipeline for retrieving Apple stock price data from the Yahoo Finance API.",
+      "API Availability Check using an Airflow Sensor to ensure the data source is ready before the pipeline runs.",
+      "Data transformation using Apache Spark, including cleaning, schema normalization, and timestamp conversion.",
+      "Data storage using MinIO as object storage and PostgreSQL as the data warehouse.",
+      "Interactive dashboards built in Metabase, featuring closing price trends, trading volume charts, and average metrics.",
+      "Real-time Slack notifications triggered upon successful pipeline execution.",
+    ],
+    githubUrl: "https://github.com/dikcoding/etl_apple_market",
+    imageUrl: "/stock_dashboard.jpg",
+  },
   car_sales: {
     title: "Car Sales Analysis",
     description:
