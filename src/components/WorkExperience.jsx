@@ -2,14 +2,14 @@ import React from "react";
 
 const experiences = [
   {
-    role: "Front End Developer",
-    company: "Kominfo Sumatera Utara",
+    role: "Data Engineer Intern",
+    company: "Dinas Komunikasi dan Informatika Provinsi Sumatera Utara",
     date: "Sep 2023 - Okt 2023",
     desc: [
-      "Merancang dan mengembangkan antarmuka situs web GIS Samsat untuk menampilkan lokasi outlet Samsat di seluruh Sumatera Utara.",
-      "Membangun dan memelihara antarmuka sistem internal menggunakan React.js.",
-      "Bekerja sama dengan tim backend untuk mengintegrasikan API data pemerintah.",
-      "Mengoptimalkan performa antarmuka hingga 25% melalui penerapan lazy loading.",
+      "Mengembangkan data pipeline untuk memproses dan mendistribusikan data lokasi outlet Samsat di seluruh Sumatera Utara, meningkatkan akurasi data hingga 98%.",
+      "Membangun dan memelihara proses ETL menggunakan Python untuk mengintegrasikan data pemerintah melalui API, mengurangi waktu pemrosesan data sekitar 40%.",
+      "Menerapkan otomatisasi data cleaning dan validasi sehingga menurunkan error data hingga 30%.",
+      "Berkoordinasi dengan tim backend untuk mengoptimalkan query dan struktur data, meningkatkan performa API hingga 25%.",
     ],
   },
 ];

@@ -2,6 +2,32 @@ import React from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
 
 const allProjectsData = {
+  retail_data_pipeline: {
+    title: "Retail Data Pipeline",
+    description:
+      "Online Retail Data Pipeline is an end-to-end project that builds a complete data processing workflow using a modern data stack. The pipeline includes data ingestion, data quality checks, transformations, and analytics delivery using Airflow, Google Cloud Storage, BigQuery, dbt, Soda, and Metabase.",
+    techCount: 7,
+    featureCount: 6,
+    technologies: [
+      "Python",
+      "Apache Airflow",
+      "Google Cloud Storage (GCS)",
+      "Soda Core (Data Quality)",
+      "dbt (Data Build Tool)",
+      "Cosmos (dbt + Airflow Integration)",
+      "Metabase",
+    ],
+    keyFeatures: [
+      "Automated data pipeline for processing the Retail dataset sourced from Kaggle.",
+      "Raw data ingestion and centralized storage using Google Cloud Storage (GCS).",
+      "Initial and post-transformation data quality checks using Soda to ensure data validity and integrity.",
+      "Data transformation using dbt to build dimension tables, fact tables, and analytical datasets.",
+      "Cosmos integration enabling each dbt model to appear as individual tasks in the Airflow DAG for full observability.",
+      "Interactive dashboards built in Metabase to analyze sales performance, product trends, customer behavior, and revenue metrics.",
+    ],
+    githubUrl: "https://github.com/dikcoding/online-retail-data-pipeline",
+    imageUrl: "/retail_analytics_dashboard.png",
+  },
   etl_apple_market: {
     title: "ETL Apple Market",
     description:

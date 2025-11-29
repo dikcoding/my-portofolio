@@ -1,14 +1,21 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FiExternalLink, FiArrowRight } from "react-icons/fi";
+
 import {
+  FaBolt,
+  FaCloud,
   FaPython,
   FaDatabase,
   FaDocker,
   FaGitAlt,
   FaWarehouse,
   FaFileExcel,
+  FaCheckCircle,
+  FaChartBar,
+  FaSlack,
 } from "react-icons/fa";
+
 import {
   SiPandas,
   SiNumpy,
@@ -18,11 +25,20 @@ import {
   SiApacheairflow,
   SiTableau,
 } from "react-icons/si";
+
 import { TbArrowsRandom } from "react-icons/tb";
 import { VscGraph } from "react-icons/vsc";
 import { MdDashboard } from "react-icons/md";
 
 const projects = [
+  {
+    id: "retail_data_pipeline",
+    title: "Retail Data Pipeline",
+    description:
+      "Online Retail Data Pipeline is an end-to-end project that builds a complete data processing workflow using a modern data stack. The pipeline includes data ingestion, data quality checks, transformations, and analytics delivery using Airflow, Google Cloud Storage, BigQuery, dbt, Soda, and Metabase.",
+    imageUrl: "/retail_analytics_dashboard.png",
+    liveDemoUrl: "https://github.com/dikcoding/online-retail-data-pipeline",
+  },
   {
     id: "etl_apple_market",
     title: "ETL Apple Market",
@@ -162,8 +178,15 @@ const techStack = [
   { name: "Snowflake", icon: <SiSnowflake size={48} /> },
   { name: "Data Warehouse", icon: <FaWarehouse size={48} /> },
   { name: "ETL", icon: <TbArrowsRandom size={48} /> },
-  { name: "Airflow", icon: <SiApacheairflow size={48} /> },
+  { name: "Apache Airflow", icon: <SiApacheairflow size={48} /> },
+  { name: "Apache Spark", icon: <FaBolt size={48} /> },
   { name: "Docker", icon: <FaDocker size={48} /> },
+  { name: "MinIO (S3 Storage)", icon: <FaCloud size={48} /> },
+  { name: "Google Cloud Storage (GCS)", icon: <FaCloud size={48} /> },
+  { name: "Soda Core (Data Quality)", icon: <FaCheckCircle size={48} /> },
+  { name: "Cosmos (dbt + Airflow)", icon: <SiApacheairflow size={48} /> },
+  { name: "Metabase", icon: <FaChartBar size={48} /> },
+  { name: "Slack Webhook", icon: <FaSlack size={48} /> },
   { name: "Tableau", icon: <SiTableau size={48} /> },
   { name: "Dashboarding", icon: <MdDashboard size={48} /> },
   { name: "Data Visualization", icon: <VscGraph size={48} /> },
