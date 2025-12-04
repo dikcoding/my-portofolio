@@ -2,6 +2,36 @@ import React from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
 
 const allProjectsData = {
+  amazon_sale_data_pipeline: {
+    title: "Amazon Sale Data Pipeline",
+    description:
+      "End-to-end data pipeline for processing Amazon sales data using Airflow and Astro. Includes ingestion, data quality checks with Soda, transformations with dbt, and delivering analytics-ready data to Metabase. A modern, scalable workflow for reliable data processing.",
+    techCount: 7,
+    featureCount: 6,
+    technologies: [
+      "Python",
+      "Apache Airflow",
+      "Google Cloud Storage (GCS)",
+      "Soda Core (Data Quality)",
+      "dbt (Data Build Tool)",
+      "Cosmos (dbt + Airflow Integration)",
+      "Metabase",
+    ],
+    keyFeatures: [
+      "End-to-end data engineering workflow that simulates real industry practices.",
+      "Scalable and robust data architecture design supporting efficient data flow.",
+      "Automated ETL/ELT pipelines for extracting, transforming, and loading data.",
+      "Comprehensive data quality validation using Soda to ensure accuracy and reliability.",
+      "Data warehouse and data mart management for structured analytical storage.",
+      "Well-defined data transformations aligned with governance and modeling standards.",
+      "Optimized storage and processing to improve pipeline performance and cost efficiency.",
+      "Collaboration-oriented data delivery enabling analysts and data scientists to access clean, trusted datasets.",
+    ],
+    liveDemoUrl:
+      "https://drive.google.com/drive/folders/1IkThIkMuJ0I3iuatS7vLEAwF1PeYGxGo?hl=ID",
+    githubUrl: "https://github.com/dikcoding/amazon-sales-data-pipeline",
+    imageUrl: "/dashboard_amazon_sale.png",
+  },
   retail_data_pipeline: {
     title: "Retail Data Pipeline",
     description:

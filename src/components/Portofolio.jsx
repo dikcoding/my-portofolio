@@ -32,6 +32,14 @@ import { MdDashboard } from "react-icons/md";
 
 const projects = [
   {
+    id: "amazon_sale_data_pipeline",
+    title: "Amazon Sale Data Pipeline",
+    description:
+      "End-to-end data pipeline for processing Amazon sales data using Airflow and Astro. Includes ingestion, data quality checks with Soda, transformations with dbt, and delivering analytics-ready data to Metabase. A modern, scalable workflow for reliable data processing.",
+    imageUrl: "/dashboard_amazon_sale.png",
+    liveDemoUrl: "https://github.com/dikcoding/amazon-sales-data-pipeline",
+  },
+  {
     id: "retail_data_pipeline",
     title: "Retail Data Pipeline",
     description:
