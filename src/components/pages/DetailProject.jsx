@@ -29,7 +29,7 @@ const allProjectsData = {
       "Fully containerized environment via Docker for reproducible deployment.",
     ],
     githubUrl: "https://github.com/dikcoding/amazon-sales-data-pipeline",
-    imageUrl: "/dashboard_amazon_sale.png",
+    imageUrl: "/dashboard-spotify-project.png",
   },
   amazon_sale_data_pipeline: {
     title: "Amazon Sale Data Pipeline",
