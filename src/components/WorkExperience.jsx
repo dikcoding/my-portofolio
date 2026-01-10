@@ -12,6 +12,18 @@ const experiences = [
       "Berkoordinasi dengan tim backend untuk mengoptimalkan query dan struktur data, meningkatkan performa API hingga 25%.",
     ],
   },
+  {
+    role: "Analis Sistem Informasi Statistik",
+    company: "Badan Pusat Statistik (BPS) Deli Serdang",
+    date: "Des 2025 – Saat ini",
+    desc: [
+      "Melakukan analisis kebutuhan sistem informasi statistik yang mencakup alur pengolahan data, penyimpanan, dan lapisan penyajian.",
+      "Menyusun dokumentasi kebutuhan teknis, termasuk perancangan struktur basis data, flowchart proses, serta spesifikasi antarmuka pengguna.",
+      "Melakukan pemeriksaan kualitas sistem, validasi integrasi API, serta pengujian ketepatan data antar-sumber untuk memastikan hasil yang andal.",
+      "Mendukung pemeliharaan sistem berbasis web dan dashboard statistik, termasuk automasi pengolahan data dan optimasi tata letak publikasi digital.",
+      "Berkoordinasi dengan unit fungsional statistik untuk memastikan sistem yang dikembangkan sesuai kebutuhan data tematik dan standar BPS.",
+    ],
+  },
 ];
 
 const projectImages = ["/dokumentasi_magang_1.jpg", "dokumentasi_magang_2.jpg"];
