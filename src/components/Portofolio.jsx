@@ -32,6 +32,14 @@ import { MdDashboard } from "react-icons/md";
 
 const projects = [
   {
+    id: "realtime_spotify",
+    title: "Real-time Spotify Pipeline",
+    description:
+      "This project demonstrates an end-to-end real-time data engineering pipeline for Spotify music analytics using the Modern Data Stack (MDS).",
+    imageUrl: "/dashboard-spotify-project.png",
+    liveDemoUrl: "https://github.com/dikcoding/realtime-spotify",
+  },
+  {
     id: "amazon_sale_data_pipeline",
     title: "Amazon Sale Data Pipeline",
     description:

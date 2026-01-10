@@ -2,6 +2,35 @@ import React from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
 
 const allProjectsData = {
+  realtime_spotify: {
+    title: "Real-time Spotify Pipeline",
+    description:
+      "This project demonstrates an end-to-end real-time data engineering pipeline for Spotify music analytics using the Modern Data Stack (MDS).",
+    techCount: 8,
+    featureCount: 8,
+    technologies: [
+      "Python (Faker) Data Simulator",
+      "Apache Kafka Real-time Streaming",
+      "MinIO (S3 Storage)",
+      "Apache Airflow Orchestration",
+      "Snowflake Cloud Data Warehouse",
+      "DBT (Data Build Tool)",
+      "Docker & Docker Compose",
+      "Metabase Analytics & Visualization",
+    ],
+    keyFeatures: [
+      "Simulates realistic Spotify streaming events using Python and Faker.",
+      "Real-time data streaming via Kafka Producers and Consumers.",
+      "Raw JSON event storage in MinIO S3 buckets.",
+      "Airflow DAGs to automate ingestion from MinIO into Snowflake Bronze tables.",
+      "dbt transformations for Silver and Gold layers with modular SQL models.",
+      "Fully implemented Medallion Architecture (Bronze → Silver → Gold).",
+      "Interactive analytics dashboards built in Metabase (top artists, regions, devices).",
+      "Fully containerized environment via Docker for reproducible deployment.",
+    ],
+    githubUrl: "https://github.com/dikcoding/amazon-sales-data-pipeline",
+    imageUrl: "/dashboard_amazon_sale.png",
+  },
   amazon_sale_data_pipeline: {
     title: "Amazon Sale Data Pipeline",
     description:
