@@ -2,6 +2,39 @@ import React from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
 
 const allProjectsData = {
+  streamify: {
+    title: "Data Streaming Spotify",
+    description:
+      "The project will stream events generated from a fake music streaming service (like Spotify) and create a data pipeline that consumes the real-time data. The data coming in would be similar to an event of a user listening to a song, navigating on the website, authenticating. The data would be processed in real-time and stored to the data lake periodically (every two minutes)",
+    techCount: 10,
+    featureCount: 10,
+    technologies: [
+      "Google Cloud Platform (GCP)",
+      "Terraform (Infrastructure as Code)",
+      "Docker & Docker Compose (Containerization)",
+      "Apache Kafka & Spark Streaming (Stream Processing)",
+      "Apache Airflow (Orchestration)",
+      "dbt (Data Transformation)",
+      "Google Cloud Storage (Data Lake)",
+      "BigQuery (Cloud Data Warehouse)",
+      "Google Data Studio (Data Visualization)",
+      "Python (Programming Language)",
+    ],
+    keyFeatures: [
+      "Simulates real-time music streaming events (song plays, navigation, authentication) from a fake streaming service.",
+      "Streams event data continuously to build a real-time data ingestion pipeline.",
+      "Processes streaming events in real-time before landing them into the Data Lake every two minutes.",
+      "Stores raw event data in the Data Lake for scalable and reliable storage.",
+      "Implements hourly batch processing jobs to transform raw data into structured analytical tables.",
+      "Applies transformation logic to create curated datasets for reporting and dashboard consumption.",
+      "Generates analytics on key metrics such as popular songs, active users, and user demographics.",
+      "Supports dashboard-ready data models for interactive analytics and business insights.",
+    ],
+    liveDemoUrl:
+      "https://public.tableau.com/app/profile/andika.fadilla.siagian/viz/dashboard_17714937104620/DashboardSpotify",
+    githubUrl: "https://github.com/dikcoding/stream_data",
+    imageUrl: "/dshboard-spotify.png",
+  },
   realtime_spotify: {
     title: "Real-time Spotify Pipeline",
     description:

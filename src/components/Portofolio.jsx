@@ -32,6 +32,14 @@ import { MdDashboard } from "react-icons/md";
 
 const projects = [
   {
+    id: "streamify",
+    title: "Data Streaming Spotify",
+    description:
+      "The project will stream events generated from a fake music streaming service (like Spotify) and create a data pipeline that consumes the real-time data. The data coming in would be similar to an event of a user listening to a song, navigating on the website, authenticating. The data would be processed in real-time and stored to the data lake periodically (every two minutes)",
+    imageUrl: "/dshboard-spotify.png",
+    liveDemoUrl: "https://github.com/dikcoding/stream_data",
+  },
+  {
     id: "realtime_spotify",
     title: "Real-time Spotify Pipeline",
     description:
