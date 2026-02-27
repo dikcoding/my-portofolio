@@ -66,11 +66,11 @@ const Experience = () => {
                 </div>
 
                 {/* RIGHT SIDE - IMAGE */}
-                <div>
+                <div className="flex justify-center lg:justify-end">
                   <img
                     src={exp.image}
                     alt={exp.role}
-                    className="w-full rounded-xl shadow-lg hover:scale-105 hover:shadow-purple-400/30 transition-all duration-300"
+                    className="w-full max-w-md rounded-xl shadow-lg hover:scale-105 transition-all duration-300"
                   />
                 </div>
               </div>
