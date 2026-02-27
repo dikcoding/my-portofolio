@@ -17,7 +17,7 @@ const allProjectsData = {
       "dbt (Data Transformation)",
       "Google Cloud Storage (Data Lake)",
       "BigQuery (Cloud Data Warehouse)",
-      "Google Data Studio (Data Visualization)",
+      "Tableau (Data Visualization)",
       "Python (Programming Language)",
     ],
     keyFeatures: [

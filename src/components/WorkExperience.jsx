@@ -26,7 +26,11 @@ const experiences = [
   },
 ];
 
-const projectImages = ["/dokumentasi_magang_1.jpg", "dokumentasi_magang_2.jpg"];
+const projectImages = [
+  "/dokumentasi_magang_1.jpg",
+  "dokumentasi_magang_2.jpg",
+  "/BPS-Dokumentasi.jpeg",
+];
 
 const Experience = () => {
   return (
