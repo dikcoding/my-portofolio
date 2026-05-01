@@ -64,18 +64,20 @@ const About = () => {
             </h1>
 
             <p className="text-slate-400 leading-relaxed mt-4">
-              Seorang lulusan Sistem Informasi yang berfokus pada bidang Data
-              Engineering dan Data Analysis. Saya memiliki minat yang kuat dalam
-              membangun alur data end-to-end mulai dari proses ekstraksi,
-              transformasi, hingga penyimpanan data serta melakukan analisis
-              mendalam untuk menghasilkan insight yang bernilai. Sebagai Data
-              Engineer, saya berkomitmen untuk merancang infrastruktur data yang
-              efisien dan terukur. Sebagai Data Analyst, saya berfokus pada
-              interpretasi data melalui visualisasi dan storytelling yang
-              mendukung pengambilan keputusan strategis. Saya percaya bahwa
-              kolaborasi antara rekayasa data dan analisis data dapat menjadi
-              fondasi penting dalam menciptakan solusi yang inovatif, efisien,
-              dan berbasis fakta.
+              Fresh graduate in Information Systems, I have a strong focus on
+              Data Engineering with an interest in building and managing
+              end-to-end data workflows. Throughout my academic, internship, and
+              project experiences, I have been involved in statistical data
+              processing and data integration from multiple sources, including
+              ETL processes, data cleaning, transformation, and data pipeline
+              automation. To support these processes, I have used technologies
+              such as Apache Spark, Apache Airflow, dbt, and Google Cloud
+              Storage to build efficient and structured data workflows. These
+              experiences helped improve data quality, accelerate data
+              processing, and support analytical teams in generating more
+              accurate insights. I am highly motivated to continue developing my
+              skills in building scalable and reliable data systems that support
+              data-driven decision-making.
             </p>
 
             <div className="my-8 p-4 bg-[#13132d]/50 border-l-4 border-purple-500 rounded-r-lg italic text-slate-400 flex items-start gap-3">

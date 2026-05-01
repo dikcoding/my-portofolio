@@ -75,7 +75,7 @@ const projects = [
     id: "car_sales",
     title: "Car Sales Analysis",
     description:
-      "Proyek ini bertujuan untuk menganalisis data historis penjualan mobil dari berbagai wilayah dan produsen.Analisis dilakukan untuk memahami tren pasar otomotif, mengidentifikasi model terlaris, menganalisis pola musiman, serta mendukung peramalan penjualan masa depan. Hasil analisis diharapkan menjadi dasar pengambilan keputusan strategis dalam pemasaran, manajemen stok, dan investasi.",
+      "This project aims to analyze historical car sales data from various regions and manufacturers. The analysis is conducted to understand automotive market trends, identify best-selling models, analyze seasonal patterns, and support future sales forecasting. The analysis results are expected to serve as a foundation for strategic decision-making in marketing, inventory management, and investment.",
     imageUrl: "/dashboard_car_sales.png",
     liveDemoUrl: "https://github.com/dikcoding/car_sales_anlysis",
   },
@@ -83,7 +83,7 @@ const projects = [
     id: "bbpvp_analyst",
     title: "Analisis Efektivitas Program Pelatihan Vokasi BBPVP Medan",
     description:
-      "Analisis efektivitas program pelatihan vokasi di BBPVP Medan menggunakan Python. Proyek ini mencakup pembuatan data sintetis, pembersihan data, analisis eksploratif, pemodelan statistik, serta visualisasi interaktif untuk mengukur dampak pelatihan terhadap produktivitas peserta.",
+      "An analysis of the effectiveness of a vocational training program at BBPVP Medan using Python. This project included synthetic data generation, data cleaning, exploratory analysis, statistical modeling, and interactive visualization to measure the training's impact on participant productivity.",
     imageUrl: "/bbpvp_analyst.png",
     liveDemoUrl: "https://github.com/dikcoding/bbpvp_analyst",
   },
@@ -91,7 +91,7 @@ const projects = [
     id: "dashboard-hr-summary",
     title: "HR Summary",
     description:
-      "Dashboard interaktif untuk memantau data karyawan secara real-time, mencakup statistik keaktifan, demografi, performa, departemen, lokasi, hingga hubungan usia dan gaji.",
+      "Interactive dashboard to monitor employee data in real-time, including statistics on activity, demographics, performance, department, location, and age and salary relationships.",
     imageUrl: "/dashboard-hr-sumarry.png",
     liveDemoUrl:
       "https://public.tableau.com/app/profile/andika.fadilla.siagian/viz/HRDashboard_17621332585400/HRSummary",
@@ -100,7 +100,7 @@ const projects = [
     id: "sales_dashboard",
     title: "Sales Dashboard",
     description:
-      "Dashboard interaktif untuk  memantau metrik penjualan utama (Sales, Profit, Quantity) secara real-time, menampilkan perbandingan 'Year-over-Year' (vs. PY) dan tren bulanan.",
+      "Interactive dashboard to monitor key sales metrics (Sales, Profit, Quantity) in real-time, displaying 'Year-over-Year' (vs. PY) comparisons and monthly trends.",
     imageUrl: "/sales_dashboard.png",
     liveDemoUrl:
       "https://public.tableau.com/app/profile/andika.fadilla.siagian/viz/SalesCustomerDashboards_17629040855770/SalesDashboard?publish=yes",
@@ -109,7 +109,7 @@ const projects = [
     id: "road-acident-anlytics",
     title: "Road Acident Analytics",
     description:
-      "Dashboard analisis berbasis Excel yang mengeksplorasi data kecelakaan jalan di Inggris (2021–2022). Berfokus pada identifikasi pola kecelakaan, tingkat keparahan korban, dan faktor lingkungan menggunakan insight berbasis data.",
+      "An Excel-based analysis dashboard exploring UK road crash data (2021–2022). Focusing on identifying crash patterns, casualty severity, and environmental factors using data-driven insights.",
     imageUrl: "/dashboard-road-accident.png",
     liveDemoUrl:
       "https://drive.google.com/drive/u/4/folders/1hxRaRQ9zW-4p8vz6pjmSrM9edihzBPk4",
@@ -118,7 +118,7 @@ const projects = [
     id: "bike-sales-project",
     title: "Bike Sales Project",
     description:
-      "Dashboard analisis berbasis Excel yang mengeksplorasi data penjualan sepeda. Dashboard ini dirancang untuk mengidentifikasi pola pembelian pelanggan berdasarkan status pernikahan, wilayah, tingkat pendidikan, pendapatan rata-rata, usia, dan jarak perjalanan (commute). Visualisasi data membantu memahami preferensi pelanggan serta faktor-faktor yang memengaruhi keputusan pembelian sepeda.",
+      "An Excel-based analysis dashboard that explores bicycle sales data. The dashboard is designed to identify customer purchasing patterns based on marital status, region, education level, average income, age, and commute distance. Data visualization helps understand customer preferences and the factors that influence bicycle purchasing decisions.",
     imageUrl: "/dashboard-bike-sales-project.png",
     liveDemoUrl:
       "https://drive.google.com/drive/u/4/folders/1IwwK9wzIRMcuFQubl2fx4ZUjT2DzPClR",
@@ -127,7 +127,7 @@ const projects = [
     id: "uber-rides",
     title: "Data Warehouse & Data Analyst Uber Rides",
     description:
-      "Repository ini berisi proses pengolahan dan analisis dataset Uber Ride Bookings dari Kaggle. Di dalamnya mencakup data transaksi perjalanan secara detail seperti ID pemesanan, informasi penjemputan/pengantaran, jenis kendaraan, dan rincian tarif. Proyek ini mencakup alur kerja data engineering sekaligus menghasilkan insight dari analisis data.",
+      "This repository contains the processing and analysis of the Uber Ride Bookings dataset from Kaggle. It includes detailed trip transaction data such as booking ID, pickup/drop-off information, vehicle type, and fare details. This project includes a data engineering workflow and generates insights from data analysis.",
     imageUrl: "/data_model.drawio.png",
     liveDemoUrl: "https://github.com/dikcoding/dw_da_uber_rides/tree/main",
   },
@@ -135,7 +135,7 @@ const projects = [
     id: "walmart-sales",
     title: "Walmart Sales Forecasting Data",
     description:
-      "Walmart Sales Forecasting Project Project ini memanfaatkan dataset Walmart untuk membangun pipeline data menggunakan DBT + Snowflake, serta visualisasi dengan Tableau. Fokus pada prediksi penjualan, manajemen inventaris, dan analisis faktor eksternal seperti libur, suhu, harga BBM, CPI, dan pengangguran.",
+      "Walmart Sales Forecasting Project This project leverages Walmart's dataset to build a data pipeline using DBT + Snowflake and visualization with Tableau. It focuses on sales forecasting, inventory management, and analysis of external factors such as holidays, temperature, fuel prices, CPI, and unemployment.",
     imageUrl: "/etl_walmart.png",
     liveDemoUrl: "https://github.com/dikcoding/walmart-sales-forecasting-data",
   },
@@ -143,7 +143,7 @@ const projects = [
     id: "dbt-airbnb",
     title: "ETL Data Warehouse",
     description:
-      "Dataset ini didasarkan pada daftar dan ulasan Airbnb, dengan data awal tambahan yang disediakan melalui berkas CSV (misalnya, tanggal bulan purnama). Proyek ini mencakup pembersihan data, pemodelan dimensi, dan pengambilan snapshot.",
+      "This dataset is based on Airbnb listings and reviews, with additional baseline data provided via CSV files (e.g., full moon dates). The project included data cleaning, dimensional modeling, and snapshotting.",
     imageUrl: "/etl_data_warehouse.png",
     liveDemoUrl: "https://github.com/dikcoding/dbt-airbnb-snowflake-project",
   },
@@ -151,7 +151,7 @@ const projects = [
     id: "data_warehouse",
     title: "SQL Data Warehouse",
     description:
-      "Panduan komprehensif untuk membangun gudang data modern dengan SQL Server, termasuk proses ETL, pemodelan data, dan analitik",
+      "A comprehensive guide to building a modern data warehouse with SQL Server, including ETL processes, data modeling, and analytics",
     imageUrl: "/sql_data_warehouse.png",
     liveDemoUrl: "https://github.com/dikcoding/sql-data-warehouse",
   },

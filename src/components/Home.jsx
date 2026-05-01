@@ -34,7 +34,7 @@ const HeroSection = () => {
         <div className="relative z-10 w-full flex flex-col items-center text-center">
           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-extrabold leading-tight lg:leading-none">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-400">
-              <span className="text-slate-100">Data</span> Analyst & Engineer
+              <span className="text-slate-100"></span>Data Engineer
             </span>
           </h1>
 
@@ -44,28 +44,24 @@ const HeroSection = () => {
           </p>
 
           <p className="mt-8 text-base lg:text-lg text-slate-400 max-w-2xl">
-            Membangun sistem data yang efisien, akurat, dan siap analisis untuk
-            mendukung pengambilan keputusan berbasis data.
+            Building scalable, reliable, and analysis-ready data systems to
+            support data-driven decision-making.
           </p>
 
           <div className="flex flex-wrap gap-3 mt-8 justify-center max-w-3xl">
             {[
               "Python",
-              "Pandas",
-              "NumPy",
               "SQL",
+              "Spark",
+              "Kafka",
+              "Airflow",
+              "Google Cloud Platform",
               "Microsoft SQL Server",
               "PostgreSQL",
               "dbt",
               "Snowflake",
-              "Data Warehouse",
-              "ETL",
-              "Airflow",
               "Docker",
               "Tableau",
-              "Dashboarding",
-              "Data Visualization",
-              "Microsoft Excel",
               "Git",
             ].map((skill) => (
               <span

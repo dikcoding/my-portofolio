@@ -2,30 +2,34 @@ import React from "react";
 
 const experiences = [
   {
-    role: "Data Engineer Intern",
-    company: "Dinas Komunikasi dan Informatika Provinsi Sumatera Utara",
-    date: "Sep 2023 - Okt 2023",
-    image: "/dokumentasi_magang_1.jpg",
+    role: "Data Engineer",
+    company: "Badan Pusat Statistik (BPS) Deli Serdang",
+    date: "Dec 2025 – Present",
+    image: "/BPS-Dokumentasi.jpeg",
     desc: [
-      "Mengembangkan data pipeline untuk memproses dan mendistribusikan data lokasi outlet Samsat di seluruh Sumatera Utara, meningkatkan akurasi data hingga 98%.",
-      "Membangun dan memelihara proses ETL menggunakan Python untuk mengintegrasikan data pemerintah melalui API, mengurangi waktu pemrosesan data sekitar 40%.",
-      "Menerapkan otomatisasi data cleaning dan validasi sehingga menurunkan error data hingga 30%.",
-      "Berkoordinasi dengan tim backend untuk mengoptimalkan query dan struktur data, meningkatkan performa API hingga 25%.",
+      "Collected and processed statistical data using Python.",
+      "Performed data cleaning and validation for statistical datasets.",
+      "Automated ETL workflows and scheduling using Apache Airflow.",
+      "Managed centralized data storage using Google Cloud Storage (GCS).",
+      "Built data transformation models using dbt.",
+      "Integrated dbt workflows with Airflow using Cosmos.",
+      "Monitored data quality and consistency using Soda Core.",
+      "Created dashboards and statistical reports using Tableau.",
     ],
   },
   {
-    role: "Data Analyst",
-    company: "Badan Pusat Statistik (BPS) Deli Serdang",
-    date: "Des 2025 – Saat ini",
-    image: "/BPS-Dokumentasi.jpeg",
+    role: "Data Engineer Intern",
+    company: "Dinas Komunikasi dan Informatika Provinsi Sumatera Utara",
+    date: "Sep 2023 - Dec 2023",
+    image: "/dokumentasi_magang_1.jpg",
     desc: [
-      "Mengelola dan mengolah 10.000+ data statistik menggunakan Microsoft Excel (Pivot Table, VLOOKUP, data cleaning).",
-      "Melakukan pembersihan dan standarisasi data, mengurangi inkonsistensi data hingga ±25%.",
-      "Melakukan validasi dan cross-check data antar sumber untuk meningkatkan akurasi hingga ±20%.",
-      "Membuat dashboard dan visualisasi data menggunakan Excel untuk menyajikan insight secara jelas dan informatif.",
-      "Mengotomatisasi proses pengolahan data dengan formula Excel untuk meningkatkan efisiensi hingga ±30%.",
-      "Berkolaborasi dengan tim Data Science dalam menyiapkan dataset untuk analisis dan pemodelan.",
-      "Mendukung exploratory data analysis (EDA) untuk mengidentifikasi pola dan tren dari data statistik.",
+      "Collected Government Public Service data from multiple APIs using Python.",
+      "Built ELT pipelines with Bronze, Silver, and Gold layers in SQL Server.",
+      "Performed data cleaning, transformation, and validation for analytics datasets.",
+      "Designed data models and warehouse schemas using draw.io.",
+      "Managed project workflows and documentation using Notion.",
+      "Created dashboards and reports using Tableau.",
+      "Monitored and maintained stable data pipeline operations.",
     ],
   },
 ];
@@ -36,16 +40,13 @@ const Experience = () => {
       <div className="container mx-auto max-w-6xl">
         {/* Title */}
         <h2 className="text-4xl md:text-5xl font-bold text-purple-400 text-center mb-12">
-          Riwayat Pekerjaan
+          Work Experience
         </h2>
 
         {/* Timeline Wrapper */}
-        <div className="relative border-l-2 border-purple-500 pl-8">
+        <div className="relative pl-8">
           {experiences.map((exp, index) => (
             <div key={index} className="mb-16 relative">
-              {/* Dot Timeline */}
-              <div className="absolute -left-10 w-5 h-5 bg-purple-500 rounded-full border-4 border-slate-900"></div>
-
               {/* Grid per Experience */}
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
                 {/* LEFT SIDE - TEXT */}
@@ -83,8 +84,8 @@ const Experience = () => {
         {/* Quote */}
         <div className="mt-20 text-center">
           <blockquote className="text-xl italic text-gray-400 max-w-3xl mx-auto border-l-4 border-purple-500 pl-6">
-            "Pengalaman adalah guru terbaik, terutama ketika dikombinasikan
-            dengan data dan kemauan untuk belajar."
+            "Experience is the best teacher, especially when combined with data
+            and a willingness to learn."
           </blockquote>
         </div>
       </div>
